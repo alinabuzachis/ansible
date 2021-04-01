@@ -492,6 +492,10 @@ plugin_routing:
       redirect: community.aws.sts_assume_role
     sts_session_token:
       redirect: community.aws.sts_session_token
+    rds_otion_group:
+      redirect: community.aws.rds_option_group
+    rds_option_group_info:
+      redirect: community.aws.rds_option_group_info
     ali_instance_facts:
       redirect: community.general.ali_instance_facts
     ali_instance:
